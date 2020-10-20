@@ -1,7 +1,7 @@
 package me.zw.container.business.board.impl;
 
 import me.zw.container.business.board.BoardVO;
-import me.zw.container.business.board.common.JDBCUtil;
+import me.zw.container.business.common.JDBCUtil;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;

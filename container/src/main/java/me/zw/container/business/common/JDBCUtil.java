@@ -1,4 +1,4 @@
-package me.zw.container.business.board.common;
+package me.zw.container.business.common;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

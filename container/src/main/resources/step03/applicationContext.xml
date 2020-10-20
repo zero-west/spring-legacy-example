@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="samsungTV" class="me.zw.container.polymorphism.step03.SamsungTV" init-method="initMethod" destroy-method="destroyMethod">
+        <constructor-arg ref="boseSpeaker"></constructor-arg>
+        <constructor-arg value="3000000"></constructor-arg>
+    </bean>
+    <bean id="jblSpeaker" class="me.zw.container.polymorphism.step03.JBLSpeaker"/>
+    <bean id="boseSpeaker" class="me.zw.container.polymorphism.step03.BOSESpeaker"/>
+</beans>

@@ -1,4 +1,4 @@
-package me.zw.aop.common;
+package me.zw.aop.step01.advice;
 
 import org.aspectj.lang.JoinPoint;
 

@@ -1,7 +1,7 @@
-package me.zw.aop.user.impl;
+package me.zw.aop.step01.user.impl;
 
 import me.zw.aop.common.JDBCUtil;
-import me.zw.aop.user.UserVO;
+import me.zw.aop.step01.user.UserVO;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;

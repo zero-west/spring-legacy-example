@@ -1,6 +1,6 @@
-package me.zw.aop.board.impl;
+package me.zw.aop.step01.board.impl;
 
-import me.zw.aop.board.BoardVO;
+import me.zw.aop.step01.board.BoardVO;
 import me.zw.aop.common.JDBCUtil;
 import org.springframework.stereotype.Repository;
 

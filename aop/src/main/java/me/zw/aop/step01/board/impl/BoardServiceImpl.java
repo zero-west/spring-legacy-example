@@ -1,7 +1,7 @@
-package me.zw.aop.board.impl;
+package me.zw.aop.step01.board.impl;
 
-import me.zw.aop.board.BoardService;
-import me.zw.aop.board.BoardVO;
+import me.zw.aop.step01.board.BoardService;
+import me.zw.aop.step01.board.BoardVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package me.zw.aop.board;
+package me.zw.aop.step01.board;
 
 import lombok.Getter;
 import lombok.Setter;

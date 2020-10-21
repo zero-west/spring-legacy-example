@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Aspect
 public class BeforeAdvice {
 
-    @Pointcut("execution(* me.zw.aop.step02..*Impl.*(..))")
+    @Pointcut("execution(* me.zw.aop.springjdbc..*Impl.*(..))")
     public void allPointcut(){
     }
 

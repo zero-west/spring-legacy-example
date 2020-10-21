@@ -7,9 +7,9 @@
 
     <context:component-scan base-package="me.zw.aop.step01"/>
 
-    <bean id="log" class="me.zw.aop.common.LogAdvice"/>
-    <bean id="before" class="me.zw.aop.common.BeforeAdvice"/>
-    <bean id="afterReturning" class="me.zw.aop.common.AfterReturningAdvice"/>
+    <bean id="log" class="me.zw.aop.step01.advice.LogAdvice"/>
+    <bean id="before" class="me.zw.aop.step01.advice.BeforeAdvice"/>
+    <bean id="afterReturning" class="me.zw.aop.step01.advice.AfterReturningAdvice"/>
 
     <aop:config>
         <aop:pointcut id="allPointcut" expression="execution(* me.zw.aop.step01..*Impl.*(..))"/>

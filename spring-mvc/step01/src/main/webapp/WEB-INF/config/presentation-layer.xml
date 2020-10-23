@@ -25,7 +25,7 @@
     <bean id="insertBoard" class="me.zw.step01.controller.InsertBoardController"/>
     <bean id="updateBoard" class="me.zw.step01.controller.UpdateBoardController"/>
     <bean id="deleteBoard" class="me.zw.step01.controller.DeleteBoardController"/>
-    <bean id="logout" class="me.zw.step01.controller.LogoaddutController"/>
+    <bean id="logout" class="me.zw.step01.controller.LogoutController"/>
 
     <!--    ViewResolver 등록-->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
